@@ -22,6 +22,6 @@ class String
         new_array << sent
       end
     end
-    new_array.count 
+    new_array.length
   end
 end
