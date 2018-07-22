@@ -19,7 +19,9 @@ class String
     new_array = []
     sent_array.each do |sent|
       if !sent.empty?
-        new_array << sent 
-      end 
+        new_array << sent
+      end
+    end
+    new_array
   end
 end
