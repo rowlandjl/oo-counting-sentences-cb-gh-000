@@ -17,5 +17,9 @@ class String
   def count_sentences
     sent_array = self.split(/[.?!]/)
     new_array = []
+    sent_array.each do |sent|
+      if !sent.empty?
+        new_array << sent 
+      end 
   end
 end
